@@ -1,39 +1,88 @@
-"(
-    margir; 0;
-    padding; 0;
-    box.sising; border.box;
-)
 
-html(
-    scrotl.behaviar:
 
-)
 
-body(
-    font.famllip: Arisl, Melvetica. sers. serfi
-    color: #1f2937;
 
-)
 
-contatiner(
-    width: 9o%;
-    max.vidth: 12
-    margin: 0 auto;
-)
 
-header(
-    backgraund: limar, gratinet
-    color: dunife
-    padding: mex
-    box.shadife: 0 aylis. 13 
-)
 
-headre.hj(
-    text.align: center;
-    fost: atre: 2 4rea;
-    margin.tottim:10m;
-)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 heat p(
-    
+    text-aling:center;
+    font-size: 1.05rem;
+    opacity:10px;
+)
+
+nav(
+    backgroumd: #08306b;
+    padding: 12px 0;
+    top: 0;
+    Z-index: 1000;
+)
+
+nav ul{
+    list-style: nome;
+    display: flex;
+    justify-content: center;
+    flex.wrap: wrap;
+    gap: 18px;
+
+}
+
+nav ul li a:hoer(
+    text-decoration: nome;
+    color: white;
+    font-weight bold;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: 0,3s ease;
+)
+
+nav ul li a: hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+.hero{
+    background-color: linear-gradient(to right, rgba(13, 71, 161, 0,08)),
+    url)'https://images.unsplash.com/photo.15
+color: white;
+text-align: cente;
+padding: 90px 20px;'
+}
+
+.hero h2(
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+)
+
+.hero p(
+    font-size:1.1rem;
+    max-width: 750px;
+    margin: 0 auto 25px;
 )
