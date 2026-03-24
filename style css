@@ -95,3 +95,78 @@ padding: 90px 20px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
+    transition: 0,3s ease;
+}
+
+.hero .btn:hover{
+    background: #ffd54f;
+    transform: scale(1.05);
+}
+section {
+    padding: 60px 20px
+}
+
+section h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #0d471a;
+    position: relative;
+}
+
+section h2: ::after{
+    ::content: "";
+    display: block;
+    width: 90px;
+    height: 4px;
+    backgroud: 342a5f5;
+    border-rafius: 10px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(260px, 1fr));
+    gap: 22px;
+}
+
+.card{
+    background-color: ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card p{
+    color: #1565c0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.agenda ul li{
+    background: white;
+    margin-bottom: 14px;
+    padding: 16px 18px;
+    border left: 6px solid #1976d2:
+    border-radius: 10px;
+    box-weight: 
+}
