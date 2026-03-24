@@ -1,102 +1,97 @@
 *{
-    
+    margin: 0;
+    top: 0;
+    box-sizing: 0;
+}
+html{
+    scroll-behavior: smooth;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: 1f2937;
+    background-color: f4f7fb;
+    line-height: 1.6;
+}
 
+.container{
+    width: 90%;
+    ma.6x-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background: linear-gradient(135deg,#0d47a1, #1976d2, #42a5f5);
+    color: white;
+    padding: 30px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) ;
+}
 
+header h1{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
 
+header p{
+text-align: center;
+font-size: 1.05rem;
+opacity: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-heat p(
-    text-aling:center;
-    font-size: 1.05rem;
-    opacity:10px;
-)
-
-nav(
-    backgroumd: #08306b;
+nav{
+    background: #08306b;
     padding: 12px 0;
+    position: sticky;
     top: 0;
-    Z-index: 1000;
-)
+    z-index: 1000;
+}
 
 nav ul{
-    list-style: nome;
+    list-style: none;
     display: flex;
     justify-content: center;
-    flex.wrap: wrap;
+    flex-wrap: wrap;
     gap: 18px;
-
 }
 
-nav ul li a:hoer(
-    text-decoration: nome;
+nav ul li a{
+    text-decoration: none;
     color: white;
-    font-weight bold;
+    font-weight: bold;
     padding: 10px 16px;
     border-radius: 8px;
-    transition: 0,3s ease;
-)
+    transition: 0.3s ease;
+}
 
-nav ul li a: hover{
+nav ul li a:hover{
     background-color: rgba(255, 255, 255, 0.15);
-    transform: translateY(-2px);
+    bbnvbzb vnm v c vaaufn bb dgçbnqhptthhq: translateY(-2px);
 }
 
 .hero{
-    background-color: linear-gradient(to right, rgba(13, 71, 161, 0,08)),
-
+    background-color: linear-gradient(to right, rgba(13, 71, 161, 0.88)),
+    url('https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1600&q=80');
 color: white;
-text-align: cente;
-padding: 90px 20px;'
+text-align: center;
+padding: 90px 20px;
 }
 
-.hero h2(
+.hero h2{
     font-size: 2.3rem;
     margin-bottom: 15px;
-)
+}
 
-.hero p(
-    font-size:1.1rem;
+.hero p{
+    font-size: 1.1rem;
     max-width: 750px;
     margin: 0 auto 25px;
-)
+}
 
-.hero. btn{
-    display:inline-block;
+.hero . btn{
+    display: inline-block;
     background: #ffca28;
-    colo: #0d47a1;
+    color: #0d47a1;
     padding: 12px 24px;
     border-radius: 10px;
-    text-decoration: nome;
-    font.weight: bold;
-    transition: 0,3s ease;
-}
+    text-decoration: none;
+    font-weight: bold;
