@@ -16,7 +16,7 @@ body{
 
 .container{
     width: 90%;
-    ma.6x-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 header{
@@ -65,7 +65,7 @@ nav ul li a{
 
 nav ul li a:hover{
     background-color: rgba(255, 255, 255, 0.15);
-    bbnvbzb vnm v c vaaufn bb dgçbnqhptthhq: translateY(-2px);
+    transform: translateY(-2px);
 }
 
 .hero{
@@ -87,7 +87,7 @@ padding: 90px 20px;
     margin: 0 auto 25px;
 }
 
-.hero . btn{
+.hero .btn{
     display: inline-block;
     background: #ffca28;
     color: #0d47a1;
@@ -95,15 +95,15 @@ padding: 90px 20px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-    transition: 0,3s ease;
+    transition: 0.3s ease;
 }
 
 .hero .btn:hover{
     background: #ffd54f;
     transform: scale(1.05);
 }
-section {
-    padding: 60px 20px
+section{
+    padding: 60px 20px;
 }
 
 section h2{
@@ -114,59 +114,60 @@ section h2{
     position: relative;
 }
 
-section h2: ::after{
-    ::content: "";
+section h2::after{
+    content: "";
     display: block;
     width: 90px;
     height: 4px;
-    backgroud: 342a5f5;
-    border-rafius: 10px;
+    background: #42a5f5;
+    border-radius: 10px;
 }
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, mimax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 22px;
 }
 
 .card{
-    background-color: ;
-
+    background-color: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transition: 0.3s ease;
 }
 
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.card h3{
+    color: #1565c0;
+    margin-bottom: 12px;
+    font-size: 1.25rem;ll
+}
 
 .card p{
-    color: #1565c0;
+    color: #4b5563;
 }
 
+.agenda{
+    background: #eaf3ff;
+    border-radius: 18px;
+    padding: 35px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
 
-
-
-
-
-
-
-
-
-
+.agenda ul{
+    list-style: none;
+}
 
 .agenda ul li{
     background: white;
     margin-bottom: 14px;
     padding: 16px 18px;
-    border left: 6px solid #1976d2:
+    border-left: 6px solid #1976d2;
     border-radius: 10px;
-    box-weight: 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-weight: 500;
 }
