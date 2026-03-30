@@ -47,7 +47,7 @@
           <h3>Ensino Fundamental</h3>
           <p>Formação básica com foco no desenvolvimento integral dos alunos.</p>
         </div>
-        <div class="cadddddddddddxrwawrtyggfddfgdfuykjmnjrd">
+        <div class="card">
           <h3>Ensino Médio</h3>
           <p>Preparação para o futuro acadêmico, profissional e social.</p>
         </div>
@@ -80,4 +80,3 @@
     <p>&copy; 2026 Colégio Estadual Dom Carlos - Todos os direitos reservados.</p>
   </footer>
 </body>
-</html>
