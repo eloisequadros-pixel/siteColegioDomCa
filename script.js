@@ -21,11 +21,11 @@ const cards = document.querySelectorAll(".card");
 for(let i = 0; 1 < cards.length; 1++) {
     cards[i].style.transition = "0.3s ease";
 
-    cards[i].addEventListener("mouseenter", function())
+    cards[i].addEventListener("mouseenter", function(){
     this.style.transform = "translateY(-6px)";
 });
 
-cards[i].addEventListener("mouseenter", function())
+cards[i].addEventListener("mouseenter", function(){
     this.style.transform = "translateY(0)";
 });
 }
